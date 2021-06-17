@@ -1,116 +1,263 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": ["Realicé mis estudios de Ingeniería en La Universidad de las Ciencias Informáticas de La Habana, Cuba."," Actualmente vivo en Montevideo, Uruguay"],
+    "section_name": {
+      "about": "Acerca de mi",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia"
+    }
+  },
+  "projects": [
+    {
+      "title": "Diario - Granma",
+      "startDate": "2014",
+      "description": "Periódico Oficial del PCC de Cuba. Principal diario Digital de Cuba por parte del gobierno y del partido con un alto nivel de demanda nacional y mundial con un CMS de Administración desarrollado con diferentes microservicios y technologías.",
+      "images": [
+        "images/portfolio/projects/cmsGran.png",
+        "images/portfolio/projects/frontgra.png"
+      ],
+      "url": "#",
+      "technologies": [
+        {
+          "class": "devicon-laravel-plain colored",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-java-plain colored",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-mysql-plain colored",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-angularjs-plain colored",
+          "name": "Angular"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
+    {
+      "title": "Intranet",
+      "startDate": "2015",
+      "description": "Sistema de Administración con procesos internos para la construcción de un diario periodístico tanto digital como impreso: Recursos Humanos, Articulos y documentos de Periodistas, Integración con Redes Sociales, Impresiones, Archivos, Seguridad, Inventarios, entre otros.",
+      "images": [
+        "images/portfolio/projects/intra.png"        ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-laravel-plain colored",
+          "name": "laravel"
+        },
+        {
+          "class": "devicon-mysql-plain colored",
+          "name": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Tribuna de La Habana",
+      "startDate": "2018",
+      "description": "Periódico Oficial de la capital cubana, La Habana. Sitio web de noticias con una alta cantidad de seguidores, con una administración (CMS) desarrollada con diferentes microservicios y tecnologías.",
+      "images": [
+        "images/portfolio/projects/cmstribuna.png",
+        "images/portfolio/projects/fronttrib.png"
+      ],
+      "url": "#",
+      "technologies": [
+        {
+          "class": "devicon-laravel-plain colored",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-postgresql-plain colored",
+          "name": "PostgreSQL"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        }
+      ]
+    },
+     {
+      "title": "Tienda de comida para mascotas",
+      "startDate": "2019",
+      "description": "Tienda de Comercio electrónico desarrollada desde cero. Administración: Productos, Ventas, Envíos, Pagos, Estadísticas, Galería, Seguridad, Correos, Mensajes, Integración con Redes Sociales, impresiones.",
+      "images": [
+        "images/portfolio/projects/eback 2.png",
+        "images/portfolio/projects/frontecomm1.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-laravel-plain colored",
+          "name": "laravel"
+        },
+        {
+          "class": "devicon-mysql-plain colored",
+          "name": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Tienda Fitness",
+      "startDate": "2019",
+      "description": "Tienda de Comercio electrónico desarrollada desde cero.  Administración: Ofertas, Cupones de descuento, Productos, Ventas, Envíos, Pagos, Estadísticas, Galería, Seguridad, Correos, Mensajería interna, Integración con Redes Sociales, impresiones.",
+      "images": [
+        "images/portfolio/projects/frontecomm1.png",
+        "images/portfolio/projects/eback 3.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-laravel-plain colored",
+          "name": "laravel"
+        },
+        {
+          "class": "devicon-mysql-plain colored",
+          "name": "MySQL"
+        }
+      ]
+    }, 
+    {
+      "title": "Administración, Microservicios, Multimedias.",
+      "startDate": "2020",
+      "description": "Módulos de Administración - BackEnd | Repositorios de Archivos | Creación y actualización de APIs | Desarrollo de diferentes FrontEnd | Despliegue en diferentes ambientes: Local, Prueba, Producción",
+      "images": [
+        "images/portfolio/projects/front eco 3.png"        ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-java-plain colored",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-laravel-plain colored",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-mysql-plain colored",
+          "name": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Tienda de Ropa",
+      "startDate": "2020",
+      "description": "Tienda de comercio electrónico desarrollado en React (Frontend) y Node (Backend). Módulos de Administración: Idiomas, Productos, Ventas, Cupones, Clientes, Envíos, Pagos, Estadísticas, Galería, Seguridad, Correos, Mensajes, Integración de Redes Sociales, impresiones.",
+      "images": [
+        "images/portfolio/projects/front ecom 2.png",
+        "images/portfolio/projects/front eco 3.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-react-plain colored",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "NodeJS"
+        },
+        {
+          "class": "devicon-mysql-plain colored",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "ITC s.a. Antel - VeraTV",
+      "title": [" Desarrollador Full-Stack",", Ingeniero de Datos", ", Ingeniero Dev-Ops", ", Jefe de equipo"],
+      "years": "08.2019 - present",
+      "mainTech": [
+        "Laravel - React - Node"
+      ],
+      "technologies": [
+        "REST API",
+        "PHP - Laravel",
+        "JavaScript - React",
+        "Node - Express",
+        "Vagrant",
+        "Docker",
+        "Kubernetes",
+        "GitLab",
+        "MySQL"
+      ]
+    },
+    {
+      
+      "company": "Períodico Tribuna de la Habana",
+      "title": ["Desarrollador Full-Stack", ", Ingeniero de Datos", ", Jefe de equipo"],
+      "years": "02/2018 - 08/2019",
+      "mainTech": [
+        "Laravel | React"
+      ],
+    "technologies": [
+      "HTML Multimedia",
+      "HTML5 - CSS3 - Bootstrap",
+      "REST API",
+      "PHP - Symfony - Laravel",
+      "JavaScript - React",
+      "MySQL | PosgreSQL",
+      "VM - Vagrant"
     ]
-  }
+  },
+    {
+      
+      "company": "Desarrollador Freelance",
+      "title": ["Desarrollador Full-Stack"],
+      "years": "05/2015 - 11/2019",
+      "mainTech": [
+        "Symfony | Laravel"
+      ],
+    "technologies": [
+      "eCommerce",
+      "PHP - Symfony - Laravel",
+      "JavaScript - React",
+      "HTML5 - CSS3 - Bootstrap",
+      "MySQL | PosgreSQL",
+      "PayU"
+    ]
+  },
+    {       
+        "company": "Diario Granma",
+        "title": ["Desarrollador Full-Stack ",", Ingeniero DevOps", ", Jefe de equipo"],
+        "years": "08/2014 - 08/2019",
+        "mainTech": [
+          "Laravel | Spring"
+        ],
+      "technologies": [
+        "REST API",
+        "PHP - Laravel",
+        "JavaScript - AngularJS",
+        "HTML5 - CSS3 - Bootstrap",
+        "MySQL | PosgreSQL",
+        "ALFRESCO",
+        "VM - Vagrant"
+      ]
+    }
+  ]
+}

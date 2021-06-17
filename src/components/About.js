@@ -8,6 +8,7 @@ class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var emailIcon = "images/email.png";
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -33,6 +34,7 @@ class About extends Component {
           <h1 style={{ color: "black", "padding-top": "200px" }}>
             <span>{sectionName}</span>
           </h1>
+          
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
@@ -42,17 +44,9 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  <img
+                    src={emailIcon}
+                    alt="Avatar placeholder"
                   />
                 </span>
               </div>

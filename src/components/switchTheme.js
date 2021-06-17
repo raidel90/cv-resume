@@ -31,22 +31,22 @@ const SwitchTheme = () => {
           <Switch
             checked={checked}
             onChange={onThemeSwitchChange}
-            offColor="#baaa80"
-            onColor="#353535"
+            offColor="#8a8999"
+            onColor="#8a8999"
             className="react-switch mx-auto"
             width={80}
             height={30}
             uncheckedIcon={
               <span
                 className="iconify"
-                data-icon="twemoji:owl"
+                data-icon="noto:full-moon-face"
                 data-inline="false"
                 style={{
                   display: "block",
                   height: "100%",
                   fontSize: 25,
                   textAlign: "end",
-                  marginLeft: "20px",
+                  marginLeft: "15px",
                   color: "#353239",
                 }}
               ></span>
