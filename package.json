@@ -1,6 +1,6 @@
 {
-  "name": "raidel-cv-portafolio",
-  "homepage": "https://raidel90.github.io/react-frontend-portfolio",
+  "name": "raidel-cv-resume",
+  "homepage": "https://raidel90.github.io/cv-resume/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
