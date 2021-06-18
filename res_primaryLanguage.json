@@ -1,0 +1,263 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": ["I'm Computer Science Engineer from the Informatic science University in La Habana, Cuba."," I'm living in Montevideo, Uruguay"],
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Granma - NewsPaper",
+        "startDate": "2014",
+        "description": "Enterprise project of government. Principal website of news about Cuba from government with high level of demand and a native CMS Administration developed in different microservices and technologies.",
+        "images": [
+          "images/portfolio/projects/cmsGran.png",
+          "images/portfolio/projects/frontgra.png"
+        ],
+        "url": "#",
+        "technologies": [
+          {
+            "class": "devicon-laravel-plain colored",
+            "name": "Laravel"
+          },
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-mysql-plain colored",
+            "name": "MySQL"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-angularjs-plain colored",
+            "name": "Angular"
+          }
+        ]
+      },
+      {
+        "title": "Intranet",
+        "startDate": "2015",
+        "description": "Administration System with a intern process of a daily Newspaper, Human Resours, News of Journalists, Social Networks, print, Security.",
+        "images": [
+          "images/portfolio/projects/intra.png"        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-laravel-plain colored",
+            "name": "laravel"
+          },
+          {
+            "class": "devicon-mysql-plain colored",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "Tribuna de La Habana",
+        "startDate": "2018",
+        "description": "Enterprise project. Website of news about cuban capital with high level of demand and a native CMS Administration developed in different microservices and technologies.",
+        "images": [
+          "images/portfolio/projects/cmstribuna.png",
+          "images/portfolio/projects/fronttrib.png"
+        ],
+        "url": "#",
+        "technologies": [
+          {
+            "class": "devicon-laravel-plain colored",
+            "name": "Laravel"
+          },
+          {
+            "class": "devicon-postgresql-plain colored",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-react-plain colored",
+            "name": "React"
+          }
+        ]
+      },
+       {
+        "title": "Store of Pets Food",
+        "startDate": "2019",
+        "description": "Store ecommerce native with Laravel. Administration: Products, Sales, Shiping, Payments, Statistics, Galery, Security, Emails, Messages, Social Networks, print.",
+        "images": [
+          "images/portfolio/projects/eback 2.png",
+          "images/portfolio/projects/frontecomm1.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-laravel-plain colored",
+            "name": "laravel"
+          },
+          {
+            "class": "devicon-mysql-plain colored",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "Store of Fitnees Food",
+        "startDate": "2019",
+        "description": "Store ecommerce native with Laravel. Administration: Blog, Categories, Products, Sales, Shiping, Payments, Statistics, Galery, Security, Emails, Messages, Social Networks, print.",
+        "images": [
+          "images/portfolio/projects/frontecomm1.png",
+          "images/portfolio/projects/eback 3.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-laravel-plain colored",
+            "name": "laravel"
+          },
+          {
+            "class": "devicon-mysql-plain colored",
+            "name": "MySQL"
+          }
+        ]
+      }, 
+      {
+        "title": "Administration, Microservices, Multimedia.",
+        "startDate": "2020",
+        "description": "Administration Modules BackEnd | Scan Repositories | API REST | FrontEnd | Deploy in Local, Testing, Production",
+        "images": [
+          "images/portfolio/projects/front eco 3.png"        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-java-plain colored",
+            "name": "Java"
+          },
+          {
+            "class": "devicon-laravel-plain colored",
+            "name": "Laravel"
+          },
+          {
+            "class": "devicon-react-plain colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-mysql-plain colored",
+            "name": "MySQL"
+          }
+        ]
+      },
+      {
+        "title": "Store of Clothes",
+        "startDate": "2020",
+        "description": "Store ecommerce native with React (Frontend) and Node (Backend). Administration Modules: Products, Sales, Shiping, Payments, Statistics, Galery, Security, Emails, Messages, Social Networks, print.",
+        "images": [
+          "images/portfolio/projects/front ecom 2.png",
+          "images/portfolio/projects/front eco 3.png"
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": "devicon-react-plain colored",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain colored",
+            "name": "NodeJS"
+          },
+          {
+            "class": "devicon-mysql-plain colored",
+            "name": "MySQL"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "ITC s.a. Antel - VeraTV",
+        "title": [" Full-Stack Developer",", Data Engineer", ", Dev-Ops Engineer"],
+        "years": "08.2019 - present",
+        "mainTech": [
+          "Laravel - React - Node"
+        ],
+        "technologies": [
+          "REST API",
+          "PHP - Laravel",
+          "JavaScript - React",
+          "Node - Express",
+          "Vagrant",
+          "Docker",
+          "Kubernetes",
+          "GitLab",
+          "MySQL"
+        ]
+      },
+      {
+        
+        "company": "Tribuna de la Habana - Newspaper",
+        "title": ["Full-Stack Developer ", ", Data Engineer",", Team Lider"],
+        "years": "02/2018 - 08/2019",
+        "mainTech": [
+          "Laravel | React"
+        ],
+      "technologies": [
+        "HTML Multimedia",
+        "HTML5 - CSS3 - Bootstrap",
+        "REST API",
+        "PHP - Symfony - Laravel",
+        "JavaScript - React",
+        "MySQL | PosgreSQL",
+        "VM - Vagrant"
+      ]
+    },
+      {
+        
+        "company": "Freelance Developer",
+        "title": ["Full-Stack Developer"],
+        "years": "05/2015 - 11/2019",
+        "mainTech": [
+          "Symfony | Laravel"
+        ],
+      "technologies": [
+        "eCommerce",
+        "PHP - Symfony - Laravel",
+        "JavaScript - React",
+        "HTML5 - CSS3 - Bootstrap",
+        "MySQL | PosgreSQL",
+        "PayU"
+      ]
+    },
+      {       
+          "company": "Granma - Newspaper",
+          "title": ["Full-Stack Developer ",", DevOps Engineer", ", Team Lider"],
+          "years": "08/2014 - 08/2019",
+          "mainTech": [
+            "Laravel | Spring"
+          ],
+        "technologies": [
+          "REST API",
+          "PHP - Laravel",
+          "JavaScript - AngularJS",
+          "HTML5 - CSS3 - Bootstrap",
+          "MySQL | PosgreSQL",
+          "ALFRESCO",
+          "VM - Vagrant"
+        ]
+      }
+    ]
+  }
