@@ -33,7 +33,7 @@ class Projects extends Component {
                     style={{ paddingBottom: "50px" }}
                   >
                     <img
-                      src={projects.images[0]}
+                      src={process.env.PUBLIC_URL+`/`+projects.images[0]}
                       alt="projectImages"
                       height="auto"
                       style={{

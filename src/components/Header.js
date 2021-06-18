@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
-import Switch from "react-switch";
-import Scrollspy from "react-scrollspy";
+// import Switch from "react-switch";
+// import Scrollspy from "react-scrollspy";
 
 class Header extends Component {
   titles = [];
@@ -79,7 +79,7 @@ class Header extends Component {
               <div className="card text-white bg-dark">
                 <div
                   className="card-header --blue "
-                  style={{ "text-align": "left" }}
+                  style={{ "textAlign": "left" }}
                 >
                   <span
                     className="iconify"

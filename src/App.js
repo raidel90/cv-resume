@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Scrollspy from "react-scrollspy";
-import ReactDOM from "react-dom";
+// import Scrollspy from "react-scrollspy";
+// import ReactDOM from "react-dom";
 
 import $ from "jquery";
 import "./App.scss";

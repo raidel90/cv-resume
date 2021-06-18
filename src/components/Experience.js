@@ -64,7 +64,7 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="" style={{'padding-bottom':'200px'}}>
+      <section id="resume" className="" style={{'paddingBottom':'200px'}}>
         <div  className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1  className="section-title" style={{ color: "black" }}>

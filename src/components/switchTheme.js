@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Typical from "react-typical";
+//import Typical from "react-typical";
 import Switch from "react-switch";
 import { Nav, Navbar } from "react-bootstrap";
 import Scrollspy from "react-scrollspy";
@@ -24,7 +24,7 @@ const SwitchTheme = () => {
         expand="lg"
         bg="dark"
         variant="dark"
-        style={{ "font-size": "12px", "padding-right": "20%" }}
+        style={{ "fontSize": "12px", "paddingRight": "20%" }}
         fixed="top"
       >
         <Navbar.Brand href="#home">
@@ -87,27 +87,27 @@ const SwitchTheme = () => {
 
               <Nav.Link
                 href="#skills"
-                style={{ "padding-right": "8%", "padding-left": "8%" }}
+                style={{ "paddingRight": "8%", "paddingLeft": "8%" }}
               > &nbsp;&nbsp;SKILLS&nbsp;&nbsp;
               </Nav.Link>
 
               <Nav.Link
                 href="#resumeLink"
-                style={{ "padding-right": "8%", "padding-left": "8%" }}
+                style={{ "paddingRight": "8%", "paddingLeft": "8%" }}
               >&nbsp;&nbsp;EXPERIENCE&nbsp;&nbsp;
               </Nav.Link>
 
 
               <Nav.Link
                 href="#about"
-                style={{ "padding-right": "8%", "padding-left": "8%" }}
+                style={{ "paddingRight": "8%", "paddingLeft": "8%" }}
               >&nbsp;&nbsp;ABOUT&nbsp;&nbsp;
               </Nav.Link>
 
 
               <Nav.Link
                 href="#portfolio"
-                style={{ "padding-right": "8%", "padding-left": "8%" }}
+                style={{ "paddingRight": "8%", "paddingLeft": "8%" }}
               > &nbsp;&nbsp;PROJECTS&nbsp;&nbsp;
               </Nav.Link>
 

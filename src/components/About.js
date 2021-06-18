@@ -1,14 +1,11 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
-      var emailIcon = "images/email.png";
+      var profilepic = `${process.env.PUBLIC_URL}/images/` + this.props.sharedBasicInfo.image;
+      var emailIcon = `${process.env.PUBLIC_URL}/images/email.png`;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -31,7 +28,7 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black", "padding-top": "200px" }}>
+          <h1 style={{ color: "black", "paddingTop": "200px" }}>
             <span>{sectionName}</span>
           </h1>
           
@@ -60,7 +57,7 @@ class About extends Component {
               <div className="card text-white bg-dark">
                 <div
                   className="card-header --blue "
-                  style={{ "text-align": "left" }}
+                  style={{ "textAlign": "left" }}
                 >
                   <span
                     className="iconify"
@@ -108,7 +105,7 @@ class About extends Component {
             </div>
               </div>
             </div>{" "}
-            <span className="social-links lg" style={{'font-size':'35px'}}>{networks}</span>
+            <span className="social-links lg" style={{'fontSize':'35px'}}>{networks}</span>
           </div>
         </div>
       </section>
