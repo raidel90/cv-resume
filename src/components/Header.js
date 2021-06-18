@@ -37,7 +37,7 @@ class Header extends Component {
       var about = this.props.resumeBasicInfo.description;
     }
 
-    var logoImage = `${process.env.PUBLIC_URL}/logo-192x192.png`;
+    var logoImage = `${process.env.PUBLIC_URL}/logo-512x512.png`;
 
     const HeaderTitleTypeAnimation = React.memo(
       () => {
@@ -57,7 +57,7 @@ class Header extends Component {
           <div className="row aligner" style={{ height: "100%" }}>
             <div className="col-md-12">
               <div>
-                 <img width="7%" src={logoImage} alt="Raidel"/>
+                 <img width="80px" src={logoImage} alt="Raidel"/>
                 <br />
                 <h1 className="mb-0">
                   <Typical steps={[name]} wrapper="p" />
