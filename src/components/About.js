@@ -26,7 +26,7 @@ class About extends Component {
     }
 
     return (
-      <section id="about">
+      <section id="about" style={{ "marginTop": "20px" }}>
         <div className="col-md-12">
           <h1 style={{ color: "black", "paddingTop": "200px" }}>
             <span>{sectionName}</span>

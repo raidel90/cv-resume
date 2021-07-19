@@ -52,10 +52,10 @@ class Header extends Component {
       <section id="home">
         <header
           id="home"
-          style={{ height: window.innerHeight - 140, display: "block" }}
+          style={{ height: '100%', display: "block" }}
         >
           <div className="row aligner" style={{ height: "100%" }}>
-            <div className="col-md-12">
+            <div className="col-md-10" >
               <div>
                  <img width="80px" src={logoImage} alt="Raidel"/>
                 <br />
@@ -72,6 +72,8 @@ class Header extends Component {
               className="col-md-6"
               style={{
                 width: "90% ",
+                marginTop: '150px',
+                marginBottom: '150px'
               }}
             >
               <div className="card text-white bg-dark">
