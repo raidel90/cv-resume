@@ -256,8 +256,11 @@ header h1 {
 }
 
 .vertical-timeline-element-date {
-	padding: 0 !important;
-	margin: 0 !important;
+	padding: 3px !important;
+	margin: 10px !important;
+	font-weight: 900 !important;
+	font-size: 1.5rem !important;
+
 }
 
 @media only screen and (max-width: 1170px) {
