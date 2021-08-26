@@ -201,13 +201,13 @@
           "Express",
           "Docker",
           "GitLab",
-          "Postgres | Mongoose"
+          "Postgres | MongoDB"
         ]
       },
       {
         "company": "ITC s.a. Antel - VeraTV",
         "title": [" Full-Stack Developer",", Data Engineer", ", Dev-Ops Engineer"],
-        "years": "2019 - present",
+        "years": "2019 - 2021",
         "mainTech": [
           "Laravel - React - Node"
         ],
