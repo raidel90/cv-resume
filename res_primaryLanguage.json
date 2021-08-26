@@ -187,11 +187,27 @@
         ]
       }
     ],
-    "experience": [
+    "experience": [    
+      {
+        "company": "Altimetrik",
+        "title": [" Full-Stack Developer "],
+        "years": "2021 - present",
+        "mainTech": [
+          "NodeJS - TypeScript - React"
+        ],
+        "technologies": [
+          "GraphQL",
+          "NestJS",
+          "Express",
+          "Docker",
+          "GitLab",
+          "Postgres | MongoDB"
+        ]
+      },
       {
         "company": "ITC s.a. Antel - VeraTV",
         "title": [" Full-Stack Developer",", Data Engineer", ", Dev-Ops Engineer"],
-        "years": "2019 - present",
+        "years": "2019 - 2021",
         "mainTech": [
           "Laravel - React - Node"
         ],
