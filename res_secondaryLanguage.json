@@ -21,6 +21,18 @@
       "url": "#",
       "technologies": [
         {
+          "class": "devicon-javascript-plain ",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
+          "class": "devicon-angularjs-plain colored",
+          "name": "Angular"
+        },
+        {
           "class": "devicon-laravel-plain colored",
           "name": "Laravel"
         },
@@ -31,14 +43,6 @@
         {
           "class": "devicon-mysql-plain colored",
           "name": "MySQL"
-        },
-        {
-          "class": "devicon-nodejs-plain colored",
-          "name": "Node"
-        },
-        {
-          "class": "devicon-angularjs-plain colored",
-          "name": "Angular"
         }
       ]
     },
@@ -51,9 +55,14 @@
       "url": "",
       "technologies": [
         {
+          "class": "devicon-javascript-plain ",
+          "name": "JavaScript"
+        },
+        {
           "class": "devicon-nodejs-plain colored",
           "name": "NodeJS"
         },
+        
         {
           "class": "devicon-laravel-plain colored",
           "name": "laravel"
@@ -75,8 +84,8 @@
       "url": "#",
       "technologies": [
         {
-          "class": "devicon-laravel-plain colored",
-          "name": "Laravel"
+          "class": "devicon-javascript-plain ",
+          "name": "JavaScript"
         },
         {
           "class": "devicon-postgresql-plain colored",
@@ -89,7 +98,12 @@
         {
           "class": "devicon-react-plain colored",
           "name": "React"
+        } ,
+           {
+          "class": "devicon-laravel-plain colored",
+          "name": "Laravel"
         }
+     
       ]
     },
      {
@@ -103,8 +117,13 @@
       "url": "",
       "technologies": [
         {
-          "class": "devicon-laravel-plain colored",
-          "name": "laravel"
+          "class": "devicon-javascript-plain ",
+          "name": "JavaScript"
+        },
+    
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
         },
         {
           "class": "devicon-mysql-plain colored",
@@ -123,6 +142,14 @@
       "url": "",
       "technologies": [
         {
+          "class": "devicon-javascript-plain ",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
           "class": "devicon-laravel-plain colored",
           "name": "laravel"
         },
@@ -133,7 +160,7 @@
       ]
     }, 
     {
-      "title": "Administración, Microservicios, Multimedias.",
+      "title": " Microservicios",
       "startDate": "2020",
       "description": "Módulos de Administración - BackEnd | Repositorios de Archivos | Creación y actualización de APIs | Desarrollo de diferentes FrontEnd | Despliegue en diferentes ambientes: Local, Prueba, Producción",
       "images": [
@@ -141,20 +168,20 @@
       "url": "",
       "technologies": [
         {
+          "class": "devicon-javascript-plain ",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-nodejs-plain colored",
+          "name": "Node"
+        },
+        {
           "class": "devicon-java-plain colored",
           "name": "Java"
         },
         {
           "class": "devicon-laravel-plain colored",
           "name": "Laravel"
-        },
-        {
-          "class": "devicon-react-plain colored",
-          "name": "React"
-        },
-        {
-          "class": "devicon-nodejs-plain colored",
-          "name": "NodeJS"
         },
         {
           "class": "devicon-mysql-plain colored",
@@ -196,9 +223,9 @@
           "NodeJS - TypeScript - React"
         ],
         "technologies": [
-          "GraphQL",
           "NestJS",
           "Express",
+          "GraphQL",
           "Docker",
           "GitLab",
           "Postgres | MongoDB"
@@ -209,14 +236,15 @@
       "title": [" Desarrollador Full-Stack",", Ingeniero de Datos", ", Ingeniero Dev-Ops", ", Jefe de equipo"],
       "years": "2019 - 2021",
       "mainTech": [
-        "Laravel - React - Node"
+        "JavaScript - React - Node"
       ],
       "technologies": [
-        "REST API",
-        "PHP - Laravel",
-        "JavaScript - React",
-        "Node - Express",
+        "JavaScript",
+        "NodeJS",
+        "Express",
+        "React",
         "Vagrant",
+        "Laravel",
         "Docker",
         "Kubernetes",
         "GitLab",
@@ -229,16 +257,15 @@
       "title": ["Desarrollador Full-Stack", ", Ingeniero de Datos", ", Jefe de equipo"],
       "years": "2018 - 2019",
       "mainTech": [
-        "Laravel | React"
+        "JavaScript | NodeJS"
       ],
     "technologies": [
-      "HTML Multimedia",
-      "HTML5 - CSS3 - Bootstrap",
-      "REST API",
-      "PHP - Symfony - Laravel",
-      "JavaScript - React",
-      "MySQL | PosgreSQL",
-      "VM - Vagrant"
+      "NodeJS",
+      "React",
+      "Laravel",
+      "MySQL ",
+      "PosgreSQL",
+      "Vagrant"
     ]
   },
     {       
@@ -246,15 +273,15 @@
         "title": ["Desarrollador Full-Stack ",", Ingeniero DevOps", ", Jefe de equipo"],
         "years": "2014 - 2019",
         "mainTech": [
-          "Laravel | Spring"
+          "JavaScript | NodeJS"
         ],
       "technologies": [
-        "REST API",
-        "PHP - Laravel",
-        "JavaScript - AngularJS",
+        "JavaScript",
+        "NodeJS",
+        "AngularJS",
         "HTML5 - CSS3 - Bootstrap",
+        "Laravel",
         "MySQL | PosgreSQL",
-        "ALFRESCO",
         "VM - Vagrant"
       ]
     },
@@ -268,8 +295,8 @@
       ],
     "technologies": [
       "eCommerce",
-      "PHP - Symfony - Laravel",
-      "JavaScript - React",
+      "Symfony - Laravel",
+      "JavaScript -  NodeJS - React",
       "HTML5 - CSS3 - Bootstrap",
       "MySQL | PosgreSQL",
       "PayU"
