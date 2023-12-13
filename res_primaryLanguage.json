@@ -41,7 +41,7 @@
             "name": "Java"
           },
 
-    
+
           {
             "class": "devicon-laravel-plain colored",
             "name": "Laravel"
@@ -107,7 +107,7 @@
           }
         ]
       },
-       {
+      {
         "title": "Store of Pets Food",
         "startDate": "2019",
         "description": "Store ecommerce native with Laravel. Administration: Products, Sales, Shiping, Payments, Statistics, Galery, Security, Emails, Messages, Social Networks, print.",
@@ -159,7 +159,7 @@
             "name": "MySQL"
           }
         ]
-      }, 
+      },
       {
         "title": "Microservices",
         "startDate": "2020",
@@ -211,11 +211,32 @@
         ]
       }
     ],
-    "experience": [    
+    "experience": [
+      {
+        "company": "Argus Controls",
+        "title": [" Senior Full-Stack Developer "],
+        "years": "2022 - present",
+        "url": "https://arguscontrols.com/",
+        "logo": "images/companies/argus_logo.png",
+        "mainTech": [
+          "NodeJS - TypeScript - React"
+        ],
+        "technologies": [
+          "Express",
+          "Tsoa",
+          "Material-UI",
+          "Fluent-UI",
+          "Docker",
+          "GitHub",
+          "Postgres"
+        ]
+      },
       {
         "company": "Altimetrik",
-        "title": [" Full-Stack Developer "],
-        "years": "2021 - present",
+        "title": ["Senior Full-Stack Developer "],
+        "years": "2021 - 2022",
+        "url": "https://www.altimetrik.com/",
+        "logo": "images/companies/altimetrik_logo.png",
         "mainTech": [
           "NodeJS - TypeScript - React"
         ],
@@ -230,60 +251,60 @@
       },
       {
         "company": "ITC s.a. Antel - VeraTV",
-        "title": [" Full-Stack Developer",", Data Engineer", ", Dev-Ops Engineer"],
+        "title": [" Senior Full-Stack Developer "],
         "years": "2019 - 2021",
+        "url": "https://itc.com.uy/",
+        "logo": "images/companies/itc_logo.png",
         "mainTech": [
-          "JavaScript - NodeJS - React"
+          "JavaScript - React - NodeJS"
         ],
         "technologies": [
-          "JavaScript",
-          "NodeJS",
           "Express",
-          "React",
           "Vagrant",
           "Laravel",
           "Docker",
           "Kubernetes",
-          "GitLab",
+          "Git",
           "MySQL"
         ]
       },
       {
-        
+
         "company": "Tribuna de la Habana - Newspaper",
-        "title": ["Full-Stack Developer ", ", Data Engineer",", Team Leader"],
+        "title": ["Senior Full-Stack Developer "],
         "years": "2018 - 2019",
+        "url": "https://www.tribuna.cu/",
+        "logo": "images/companies/tribuna_logo.png",
         "mainTech": [
-          "JavaScript | NodeJS"
+          "Laravel | AngularJS | NodeJS"
         ],
       "technologies": [
         "NodeJS",
         "React",
-        "Laravel",
         "MySQL ",
         "PosgreSQL",
         "Vagrant"
       ]
     },
-      {       
+      {
           "company": "Granma - Newspaper",
-          "title": ["Full-Stack Developer ",", DevOps Engineer", ", Team Leader"],
+          "title": ["Full-Stack Developer "],
           "years": "2014 - 2019",
+          "url": "https://www.granma.cu/",
+          "logo": "images/companies/granma_logo.png",
           "mainTech": [
-            "JavaScript | NodeJS"
+            "JavaScript | Laravel | NodeJS"
           ],
         "technologies": [
-          "JavaScript",
-          "NodeJS",
           "AngularJS",
           "HTML5 - CSS3 - Bootstrap",
-          "Laravel",
-          "MySQL | PosgreSQL",
+          "MySQL",
+          "PosgreSQL",
           "VM - Vagrant"
         ]
       },
       {
-        
+
         "company": "Freelance",
         "title": ["Web Developer"],
         "years": "2011 - 2019",
@@ -300,7 +321,7 @@
       ]
     },
       {
-        
+
         "company": "Freelance",
         "title": ["Multimedia Developer"],
         "years": "2008 - 2010",
