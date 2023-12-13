@@ -13,6 +13,8 @@ class Experience extends Component {
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
+        const logo = work.logo;
+        const website = work.url;
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -39,13 +41,13 @@ class Experience extends Component {
             }}
             icon={<i className="fas fa-clock experience-icon"></i>}
             key={i}
-            
+
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
               {mainTech}
             </div>
 
-            <h3 
+            <h3
               className="vertical-timeline-element-title"
               style={{ textAlign: "left" }}
             >
@@ -57,6 +59,12 @@ class Experience extends Component {
             >
               {work.company}
             </h4>
+            {!!website &&<div style={{ height: '35px', marginBlock: '10px', marginTop: '10px' }}>
+                <a href={website} style={{ textAlign: "left", marginBottom: "4px", height: '-webkit-fill-available' }}>
+                  <img src={logo} alt={work.company} style={{ height: 'inherit', width: 'inherit' }}/>
+                </a>
+            </div>
+            }
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
           </VerticalTimelineElement>
         );
@@ -64,7 +72,7 @@ class Experience extends Component {
     }
 
     return (
-      <section id="resume" className="" style={{'paddingBottom':'200px'}}>
+      <section id="resume" className="" style={{ paddingBottom:'200px', paddingTop:'100px'}}>
         <div  className="col-md-12 mx-auto">
           <div className="col-md-12">
             <h1  className="section-title" style={{ color: "black" }}>

@@ -4,12 +4,12 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = `${process.env.PUBLIC_URL}/images/` + this.props.sharedBasicInfo.image;
+      // var profilepic = `${process.env.PUBLIC_URL}/images/` + this.props.sharedBasicInfo.image;
       var emailIcon = `${process.env.PUBLIC_URL}/images/email.png`;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
-      var hello = this.props.resumeBasicInfo.description_header;
+      // var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
     }
 
@@ -26,16 +26,19 @@ class About extends Component {
     }
 
     return (
-      <section id="about" style={{ "marginTop": "20px" }}>
+      <section id="about" style={{ paddingBottom: "200px", paddingTop: "300px" }}>
         <div className="col-md-12">
-          <h1 style={{ color: "black", "paddingTop": "200px" }}>
+          <h1 style={{ color: "black" }}>
             <span>{sectionName}</span>
           </h1>
-          
+
+          <h1 className='title-styles' style={{ padding: '3vw 12vw 3vw 12vw', textAlign: 'justify' }}> {about} </h1>
+
+
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
+                {/* <span style={{ cursor: "auto" }}>
                   <img
                     src={profilepic}
                     alt="Avatar placeholder"
@@ -43,17 +46,14 @@ class About extends Component {
                   <img
                     src={emailIcon}
                     alt="Avatar placeholder"
-                  />
-                </span>
+                    />
+                </span>*/}
               </div>
             </div>
             <div className="col-md-8 center">
               <div className="col-md-10">
-              <div
-              className="col-md-10"
-     
-            >
-              <div className="card text-white bg-dark">
+              <div className="col-md-10">
+              {/* <div className="card text-white bg-dark">
                 <div
                   className="card-header --blue "
                   style={{ "textAlign": "left" }}
@@ -100,11 +100,11 @@ class About extends Component {
                   {about}
                   <span className="parpadea strong">__</span>
                 </div>
-              </div>
+              </div> */}
             </div>
               </div>
             </div>{" "}
-            <span className="social-links lg" style={{'fontSize':'35px'}}>{networks}</span>
+            <span id="aboutNetworks" className="social-links lg" style={{'fontSize':'35px'}}>{networks}</span>
           </div>
         </div>
       </section>

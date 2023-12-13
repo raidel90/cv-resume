@@ -39,14 +39,14 @@ class Header extends Component {
 
     var logoImage = `${process.env.PUBLIC_URL}/logo-512x512.png`;
 
-    const HeaderTitleTypeAnimation = React.memo(
-      () => {
-        return (
-          <Typical className="title-styles" steps={this.titles} loop={50} />
-        );
-      },
-      (props, prevProp) => true
-    );
+    // const HeaderTitleTypeAnimation = React.memo(
+    //   () => {
+    //     return (
+    //       <Typical className="title-styles" steps={this.titles} loop={50} />
+    //     );
+    //   },
+    //   (props, prevProp) => true
+    // );
 
     return (
       <section id="home">
@@ -59,11 +59,13 @@ class Header extends Component {
               <div>
                  <img width="80px" src={logoImage} alt="Raidel"/>
                 <br />
-                <h1 className="mb-0">
-                  <Typical steps={[name]} wrapper="p" />
-                </h1>
+                <h3 className="mb-0" style={{fontSize: 'xx-large' }}>
+                  {name?.toUpperCase()}
+                  {/* <Typical steps={[name]} wrapper="p" /> */}
+                </h3>
                 <div className="title-container">
-                  <HeaderTitleTypeAnimation />
+                  <h4 style={{fontSize: '-webkit-xxx-large' }} >{this.titles?.[0]}</h4>
+                  {/* <HeaderTitleTypeAnimation /> */}
                 </div>
               </div>
             </div>

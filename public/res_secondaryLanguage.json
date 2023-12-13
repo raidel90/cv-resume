@@ -62,7 +62,7 @@
           "class": "devicon-nodejs-plain colored",
           "name": "NodeJS"
         },
-        
+
         {
           "class": "devicon-laravel-plain colored",
           "name": "laravel"
@@ -103,7 +103,7 @@
           "class": "devicon-laravel-plain colored",
           "name": "Laravel"
         }
-     
+
       ]
     },
      {
@@ -120,7 +120,7 @@
           "class": "devicon-javascript-plain ",
           "name": "JavaScript"
         },
-    
+
         {
           "class": "devicon-nodejs-plain colored",
           "name": "Node"
@@ -158,7 +158,7 @@
           "name": "MySQL"
         }
       ]
-    }, 
+    },
     {
       "title": " Microservicios",
       "startDate": "2020",
@@ -216,9 +216,30 @@
   ],
   "experience": [
           {
+            "company": "Argus Controls",
+            "title": [" Desarrollador Senior Full-Stack "],
+            "years": "2022 - present",
+            "url": "https://arguscontrols.com/",
+            "logo": "images/companies/argus_logo.png",
+            "mainTech": [
+              "NodeJS - TypeScript - React"
+            ],
+            "technologies": [
+              "Express",
+              "Tsoa",
+              "Material-UI",
+              "Fluent-UI",
+              "Docker",
+              "GitHub",
+              "PostgresSQL"
+            ]
+          },
+          {
         "company": "Altimetrik",
-        "title": ["Desarrollador Full-Stack "],
+        "title": ["Desarrollador Senior Full-Stack "],
         "years": "2021 - present",
+        "url": "https://www.altimetrik.com/",
+        "logo": "images/companies/altimetrik_logo.png",
         "mainTech": [
           "NodeJS - TypeScript - React"
         ],
@@ -233,62 +254,62 @@
       },
     {
       "company": "ITC s.a. Antel - VeraTV",
-      "title": [" Desarrollador Full-Stack",", Ingeniero de Datos", ", Ingeniero Dev-Ops", ", Jefe de equipo"],
+      "title": [" Desarrollador Senior Full-Stack "],
       "years": "2019 - 2021",
+      "url": "https://itc.com.uy/",
+      "logo": "images/companies/itc_logo.png",
       "mainTech": [
-        "JavaScript - React - Node"
+        "JavaScript - React - NodeJS"
       ],
       "technologies": [
-        "JavaScript",
-        "NodeJS",
         "Express",
-        "React",
         "Vagrant",
         "Laravel",
         "Docker",
         "Kubernetes",
-        "GitLab",
+        "Git",
         "MySQL"
       ]
     },
     {
-      
-      "company": "Períodico Tribuna de la Habana",
-      "title": ["Desarrollador Full-Stack", ", Ingeniero de Datos", ", Jefe de equipo"],
+
+      "company": "Periódico Tribuna de la Habana",
+      "title": [" Desarrollador Senior Full-Stack "],
       "years": "2018 - 2019",
+      "url": "https://www.tribuna.cu/",
+      "logo": "images/companies/tribuna_logo.png",
       "mainTech": [
-        "JavaScript | NodeJS"
+        "Laravel | AngularJS | NodeJS"
       ],
     "technologies": [
       "NodeJS",
       "React",
-      "Laravel",
       "MySQL ",
       "PosgreSQL",
       "Vagrant"
     ]
   },
-    {       
+    {
         "company": "Diario Granma",
-        "title": ["Desarrollador Full-Stack ",", Ingeniero DevOps", ", Jefe de equipo"],
+        "title": [" Desarrollador Full-Stack "],
         "years": "2014 - 2019",
+        "url": "https://www.granma.cu/",
+        "logo": "images/companies/granma_logo.png",
         "mainTech": [
-          "JavaScript | NodeJS"
+          "JavaScript | Laravel | NodeJS"
         ],
       "technologies": [
-        "JavaScript",
-        "NodeJS",
         "AngularJS",
         "HTML5 - CSS3 - Bootstrap",
-        "Laravel",
-        "MySQL | PosgreSQL",
+        "MySQL",
+        "PosgreSQL",
         "VM - Vagrant"
       ]
     },
     {
-        
+
       "company": "Freelance",
-      "title": ["Desarrollador Web"],
+      "title": [" Desarrollador Web "],
       "years": "2011 - 2019",
       "mainTech": [
         "JavaScript | PHP"
@@ -303,9 +324,9 @@
     ]
   },
     {
-      
+
       "company": "Freelance",
-      "title": ["Desarrollador Multimedia"],
+      "title": [" Desarrollador Multimedia "],
       "years": "2008 - 2010",
       "mainTech": [
         " HTML5 - CSS3 | Flash SWF "

@@ -8,7 +8,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
+// import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 class App extends Component {
@@ -80,7 +80,7 @@ class App extends Component {
       window.$secondaryLanguageIconId
     );
 
-    let sections = ["skills", "about", "resume"];
+    let sections = ["home","skills", "resume", "about"];
     this.setState({ sections });
   }
 
@@ -105,7 +105,7 @@ class App extends Component {
       cache: false,
       success: function (data) {
         this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
+        document.title = `Raidel Valle | Senior Full Stack Developer`;
       }.bind(this),
       error: function (xhr, status, err) {
         alert(err);
@@ -160,7 +160,7 @@ class App extends Component {
           sharedSkills={this.state.sharedData.skills}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
-          <Experience 
+          <Experience
             resumeExperience={this.state.resumeData.experience}
             resumeBasicInfo={this.state.resumeData.basic_info}
           />
@@ -170,12 +170,12 @@ class App extends Component {
           sharedBasicInfo={this.state.sharedData.basic_info}
         />
 
-        <Projects
+        {/* <Projects
           resumeProjects={this.state.resumeData.projects}
           resumeBasicInfo={this.state.resumeData.basic_info}
-        />
+        /> */}
 
-        <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
+        {/* <Footer sharedBasicInfo={this.state.sharedData.basic_info} /> */}
       </div>
     );
   }

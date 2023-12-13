@@ -74,11 +74,12 @@ const SwitchTheme = () => {
           <Nav className="mr-auto">
             <Nav.Link href="#features"></Nav.Link>
           </Nav>
-          
+
           <Scrollspy
           componentTag="div"
           className="scrollspys menu navbar-var navbarTest"
-          items={[ "home","skills", "resume", "about", "portfolio"]}
+          items={[ "home","skills", "resume", "about"]}
+          // items={[ "home","skills", "resume", "about", "portfolio"]}
           currentClassName="active"
         >
               <Nav.Link id="startMenu" href="#home">
@@ -92,26 +93,26 @@ const SwitchTheme = () => {
               </Nav.Link>
 
               <Nav.Link
-                href="#resumeLink"
+                href="#resume"
                 style={{ "paddingRight": "8%", "paddingLeft": "8%" }}
               >&nbsp;&nbsp;EXPERIENCE&nbsp;&nbsp;
               </Nav.Link>
 
 
               <Nav.Link
-                href="#about"
+                href="#aboutNetworks"
                 style={{ "paddingRight": "8%", "paddingLeft": "8%" }}
               >&nbsp;&nbsp;ABOUT&nbsp;&nbsp;
               </Nav.Link>
 
 
-              <Nav.Link
+              {/* <Nav.Link
                 href="#portfolio"
                 style={{ "paddingRight": "8%", "paddingLeft": "8%" }}
               > &nbsp;&nbsp;PROJECTS&nbsp;&nbsp;
-              </Nav.Link>
+              </Nav.Link> */}
 
-              
+
           </Scrollspy>
         </Navbar.Collapse>
       </Navbar>

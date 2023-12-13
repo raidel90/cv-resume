@@ -21,7 +21,7 @@ html {
 
 .title-styles {
 	font-family: 'Raleway', sans-serif;
-	font-size: 200%;
+	// font-size: 200%;
 }
 
 .header-icon {
@@ -456,26 +456,26 @@ footer a:focus {
 	animation-duration: 1s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-  
+
 	-webkit-animation-name:parpadeo;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-timing-function: linear;
 	-webkit-animation-iteration-count: infinite;
   }
-  
-  @-moz-keyframes parpadeo{  
+
+  @-moz-keyframes parpadeo{
 	0% { opacity: 1.0; }
 	50% { opacity: 0.0; }
 	100% { opacity: 1.0; }
   }
-  
-  @-webkit-keyframes parpadeo {  
+
+  @-webkit-keyframes parpadeo {
 	0% { opacity: 1.0; }
 	50% { opacity: 0.0; }
 	 100% { opacity: 1.0; }
   }
-  
-  @keyframes parpadeo {  
+
+  @keyframes parpadeo {
 	0% { opacity: 1.0; }
 	 50% { opacity: 0.0; }
 	100% { opacity: 1.0; }
@@ -527,7 +527,7 @@ footer a:focus {
     -webkit-transition-duration: .3s;
     -o-transition-duration: .3s;
 
-	
+
 }
 
 .menu .nav-link.active  {
@@ -539,7 +539,7 @@ color:#fff;
 color:rgba(255,255,255,.5);
 
 }
- 
+
 
 .navbarTest {
     display: flex;
